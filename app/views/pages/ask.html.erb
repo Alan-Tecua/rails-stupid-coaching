@@ -1,0 +1,9 @@
+<div class="container">
+<h2>Ask your Coach anything</h2>
+  <div class="d-flex flex-column">
+    <form action="/answer" method="get">
+      <input type="text" name="question" placeholder="what do you want?" value="<%=params[:question]%>">
+      <input type="submit" value="Ask!" class="btn btn-danger">
+    </form>
+  </div>
+</div>
